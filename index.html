@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New York Times Search App</title>
+<!-- 	<script type = "text/javascript" src = "assets/javascript/app.js"></script>
+ --><link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+  <div class = "container">
+  	<div class = "row">
+  	<div class = "col-sm-12">
+	  <header><i class="fa fa-newspaper-o"></i>New York Times Search</header>
+	</div>
+	</div>
+
+	
+	<div class = "searchContainer">
+	  <div class = "row">
+	  <div class = "col-sm-12">
+	  <div class = "panel panel-default">
+	    <div class = "panel-heading">
+		<i class="fa  fa-list-alt"></i> Search Parameters</p>
+		</div>
+		  <div class = "searchArea">
+		    <p>Search Term:</p>
+		    <input type = "text" id = "searchTerm" class = "form-control">
+		    <p>Number of Records to Retreive:</p>
+		    <select class = "form-control" id = "numOfRecords" title = "5">
+		      <option value = "1">1</option>
+		      <option selected = "selected" value = "5">5</option>
+		      <option value = "10">10</option>	
+		    </select>
+		    <p>Start Year (Optional):</p>
+		    <input type = "text" id = "startYearTerm" class = "form-control">
+			<p>End Year (Optional):</p>
+		    <input type = "text" id = "endYearTerm" class = "form-control">
+		    <button type = "button" class = "btn btn-default" id = "searchBtn">
+		    	<i class = "glyphicon glyphicon-search"></i> Search
+		    </button>
+		    <button type = "button" class = "btn btn-default" id = "clearBtn">
+		    	<i class = "glyphicon glyphicon-trash"></i>Clear Results
+		    </button>
+		  </div>
+		</div>
+	    </div>
+		</div>
+		</div>
+		<div class = "row">
+		<div class = "col-sm-12">
+		  <div class = "panel panel-default">
+		    <div class = "panel-heading">
+		    <i class = "fa fa-table"> Top Articles</i>
+		    </div>
+		    <div class = "resultsArea">
+
+		    </div>
+
+		    </div>
+		  </div>
+		</div>
+		</div>
+	
+	</div>
+
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script type = "text/javascript" src = "assets/javascript/app.js"></script>
+
+</body>
+</html>
