@@ -2,6 +2,7 @@ var startYear = 19400101;
 var endYear = 20170302;
 var staticDayMonth = 0101;
 // year should integer
+// $("input[type=number]").numeric();
 
 var searchObj = {
 	// initializes the info that will be grabbed from the search boxes, to be compared and modified
@@ -54,6 +55,7 @@ var searchObj = {
 		}
 		// returns the startYear, either unchanged if the user entered a valid value
 		// if the user entered an invalid value, the value is either changed or the user is alerted
+		// if ()
 		return startYear;
 	},
 	// checks the edge cases where the user enters an incorrect end year
